@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE serverconfig SYSTEM "config.dtd">
+<serverconfig>
+	<database uri="jdbc:postgresql://your_address_localDB/kartdb" user="swing" password="swing" jdbcdriver="org.postgresql.Driver" />
+</serverconfig>

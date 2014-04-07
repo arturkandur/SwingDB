@@ -1,0 +1,7 @@
+<!ELEMENT serverconfig (database) >
+<!ELEMENT database EMPTY >
+
+<!ATTLIST database uri CDATA #REQUIRED
+						user CDATA #REQUIRED
+						password CDATA #REQUIRED
+						jdbcdriver CDATA #REQUIRED >
